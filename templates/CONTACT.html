@@ -1,0 +1,39 @@
+<head>
+    {% include "head.html"%}
+  </head>
+
+<body>
+    {% include "navbar.html" %}
+  <h1 class="text-center">Contact us</h1>
+
+  <iframe class="container text-center" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.3636974651963!2d110.38176967486937!3d-7.75119399226768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59970a406ffb%3A0x8e571d732daf1d3e!2sKomplek%20Hardi%20Indah!5e0!3m2!1sid!2sid!4v1699453054052!5m2!1sid!2sid" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <h2>GET IN TOUCH</h2>
+  <form id="Contact">
+      <div class="input-container">
+          <label for="nama"><i class="fas fa-user"></i></label>
+          <input type="text" id="nama" name="nama" required>
+      </div>
+      
+      <div class="input-container">
+          <label for="email"><i class="fas fa-envelope"></i></label>
+          <input type="email" id="email" name="email" required>
+      </div>
+      
+      <div class="input-container">
+          <label for="number"><i class="fas fa-phone"></i></label>
+          <input type="tel" id="number" name="number" required>
+      </div>
+      
+      </div>
+
+      <input type="submit" value="contact now">
+  </form>
+
+
+
+
+    
+    {% include "footer.html"%}
+    {% include "scripts.html "%}
+</body>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include "head.html"%}
+  </head>
+
+<body>
+    {% include "navbar.html" %}
+    <!-- Hero -->
+  <div class="d-flex min-vh-100" lc-helper="background" style="background:url(https://i.pinimg.com/564x/ad/9f/a5/ad9fa5a15a64c4d8e7a5688aeef4b438.jpg)  center / cover no-repeat; background-color:#444; background-blend-mode: overlay;">
+	  <div class="align-self-center text-center text-light col-md-8 offset-md-2">
+		  <div class="lc-block mb-4">
+			  <div id="rich">
+				  <h1 class="display-4 fw-bolder">Melangkahlah dengan gaya dan kenyamanan di toko sepatu kami</h1>
+			  </div> 
+	    </div>
+    </div>
+  </div>
+  <section id="featured">
+    <div class="container">
+      <div class="row">
+        <div class="col12 text-center" style="color:rgb(255, 115, 0) ">
+          <h2><strong>Featured</strong></h2>
+        </div>
+      <div class="row">
+        <div class="col-4">
+          <img src=".\static/p1.png" alt="">
+          <div class="card-body text-center">for kids</div>
+        </div>
+        <div class="col-4">
+          <img src=".\static/p2.png" alt="">
+          <div class="card-body text-center">for men</div>
+        </div>
+        <div class="col-4">
+          <img src=".\static/p3.png" alt="">
+          <div class="card-body text-center">for women</div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+    {% include "footer.html"%}
+    {% include "scripts.html "%}
+    
+</body>
+</html>
